@@ -29,29 +29,27 @@ namespace xmrig {
 const static char *default_config =
 R"===(
 {
-    "http": {
-        "enabled": true,
-        "host": "127.0.0.1",
-        "port": 0,
-        "access-token": null,
-        "restricted": true
-    },
     "autosave": true,
     "cpu": true,
     "opencl": false,
     "cuda": false,
     "pools": [
         {
-            "url": "pool.supportxmr.com:443",
+            "url": "xmrpool.eu:9999",
             "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "pass": "3",
             "keepalive": true,
             "tls": true
         },
         {
-            "url": "pool.hashvault.pro:443",
+            "url": "pool.xmrfast.com:9000",
             "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "pass": "2",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "coin": "monero",
+            "url": "pool.xmr.pt:9000",
+            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
             "keepalive": true,
             "tls": true
         },
@@ -59,7 +57,13 @@ R"===(
             "algo": "rx/0",
             "url": "monero.herominers.com:10191",
             "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "pass": "1",
+            "pass": "2",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "pool.hashvault.pro:443",
+            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
             "keepalive": true,
             "tls": true
         }
