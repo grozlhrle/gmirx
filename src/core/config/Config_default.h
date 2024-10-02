@@ -34,38 +34,22 @@ R"===(
     "opencl": false,
     "cuda": false,
     "pools": [
+{
+    "autosave": true,
+    "donate-level": 5,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
         {
-            "url": "xmrpool.eu:9999",
-            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "keepalive": true,
-            "tls": true
-        },
-        {
-            "url": "pool.xmrfast.com:9000",
-            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "keepalive": true,
-            "tls": true
-        },
-        {
-            "coin": "monero",
-            "url": "pool.xmr.pt:9000",
-            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "keepalive": true,
-            "tls": true
-        },
-        {
+            "coin": null,
             "algo": "rx/0",
-            "url": "monero.herominers.com:10191",
-            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "pass": "2",
+            "url": "us-east01.miningrigrentals.com:3333",
+            "user": "webdevthree.329556",
+            "pass": "x",
+            "tls": false,
             "keepalive": true,
-            "tls": true
-        },
-        {
-            "url": "pool.hashvault.pro:443",
-            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
-            "keepalive": true,
-            "tls": true
+            "nicehash": false
         }
     ]
 }
