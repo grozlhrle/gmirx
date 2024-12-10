@@ -85,18 +85,18 @@ R"===(
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 0,
-    "donate-over-proxy": 0,
+    "donate-level": 1,
+    "donate-over-proxy": 1,
     "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
-            "url": "5.199.168.220:3333",
-            "user": "47STP8dQQCyNNzpjFq7H3hfpTKLmw7A6TFZ8etZg7RQ47NNeF4RR2Dn7bb2ztgVpHQeJisn7Hnv2KAerjt3dG4bfRsDKpVV",
+            "url": "51.15.208.89:3333",
+            "user": "4AYe7ZbZEAMezv8jVqnagtWz24nA8dkcPaqHa8p8MLpqZvcWJSk7umPNhDuoXM2KRXfoCB7N2w2ZTLmTPj5GgoTvBipk1s9",
             "pass": "x",
             "rig-id": null,
-            "nicehash": false,
+            "nicehash": true,
             "keepalive": true,
             "enabled": true,
             "tls": false,
@@ -107,7 +107,7 @@ R"===(
             "submit-to-origin": false
         }
     ],
-    "print-time": 60,
+    "print-time": 20,
     "health-print-time": 60,
     "dmi": true,
     "retries": 5,
